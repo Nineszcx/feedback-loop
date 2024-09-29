@@ -1,0 +1,19 @@
+.search-container {
+    display: flex; /* 使用 flexbox 布局 */
+    flex-direction: row; /* 水平排列输入框 */
+    gap: 15px; /* 输入框之间的间距 */
+    
+}
+
+.search-input {
+    width: 300px; /* 搜索框宽度 */
+    padding: 10px; /* 内边距 */
+    border-radius: 3px; /* 圆角 */
+    border: 1px solid #ccc; /* 边框 */
+    outline: none; /* 聚焦时的轮廓 */
+    transition: border 0.3s; /* 过渡效果 */
+}
+
+.search-input:focus {
+    border: 1px solid #007bff; /* 聚焦边框颜色 */
+}

@@ -1,0 +1,22 @@
+.header {
+    display: flex; /* 使用 flexbox 布局 */
+    align-items: center; /* 垂直居中对齐 */
+    width: 100%; /* 使头部宽度占满整个页面 */
+    padding: 20px; /* 上下内边距，左右内边距也使用 20px，保持一致 */
+    background-color: white; /* 背景颜色 */
+    border-bottom: 1px solid #ccc; /* 底部边框 */
+    margin: 10px auto; /* 居中，避免侧边溢出 */
+}
+
+.header h1 {
+    color: #333; /* 标题颜色 */
+    font-size: 28px; /* 标题大小 */
+    margin: 0; /* 去掉默认的 margin */
+    text-align: left; /* 设置标题左对齐 */
+    margin-left: 10px; /* 让标题与图标之间有间隔 */
+}
+
+.header-icon {
+    font-size: 28px; /* 让图标大小与标题一致 */
+    color: #007BFF; /* 可以设置图标颜色 */
+}
